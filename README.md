@@ -55,13 +55,13 @@ switch-tide-skin.cmd
 ### From npm (if published) · 从 npm（如果已发布）
 
 ```bash
-dsh plugin --profile web add @linxin666/dsh-client-ui-skin-tide
+dsh plugin --profile web add dsh-tide-ui
 ```
 
 ### Manual install · 手动安装
 
-1. Copy the `dsh-tide-ui/` folder into `~/.dsh/profiles/web/node_modules/@linxin666/dsh-client-ui-skin-tide/`
-2. Run `dsh plugin --profile web add @linxin666/dsh-client-ui-skin-tide`
+1. Copy the `dsh-tide-ui/` folder into `~/.dsh/profiles/web/node_modules/dsh-tide-ui/`
+2. Run `dsh plugin --profile web add dsh-tide-ui`
 3. Open DSH Web → home manager → pick **潮汐 / Tide**
 
 ---
@@ -153,7 +153,7 @@ dsh-tide-ui/
 ```bash
 # Pick another skin in the dsh home manager UI
 # or:
-dsh plugin --profile web remove @linxin666/dsh-client-ui-skin-tide
+dsh plugin --profile web remove dsh-tide-ui
 ```
 
 All body attributes, class names, and DOM nodes are cleaned up in the runtime's `effect` cleanup hook, so the official UI returns instantly.
