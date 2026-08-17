@@ -1,0 +1,27 @@
+# Bilingual metadata for the DSH plugin market.
+# Read this when listing the skin in non-default locales.
+pairs:
+  - key: title
+    zh: DSH Web GUI 潮汐液态玻璃皮肤
+    en: DSH Tide Liquid-Glass Skin for the DSH Web GUI
+  - key: tagline
+    zh: 极光潮汐背景 · 浮动工作窗口 · 鲸鱼娘挂件 · 全可调液态玻璃
+    en: Aurora-tide backdrop · floating workspace · whale-girl companion · fully tunable liquid glass
+  - key: features
+    zh: 极光潮汐背景、液态玻璃面板、鲸鱼娘挂件、可拖动悬浮窗口
+    en: Aurora-tide backdrop, liquid-glass panels, whale-girl companion, floating workspace
+  - key: rollback
+    zh: 运行 switch-tide-skin.cmd 可随时切回官方界面
+    en: Run switch-tide-skin.cmd to switch back to the official UI anytime
+  - key: install
+    zh: 通过 dsh plugin --profile web add . 安装到默认 web 配置
+    en: Install into the default web profile with `dsh plugin --profile web add .`
+  - key: uninstall
+    zh: 通过 dsh plugin --profile web remove @linxin666/dsh-client-ui-skin-tide 卸载
+    en: Uninstall with `dsh plugin --profile web remove @linxin666/dsh-client-ui-skin-tide`
+  - key: light_preview_alt
+    zh: DSH 潮汐液态玻璃皮肤 - 浅色主题效果展示
+    en: DSH Tide liquid-glass skin — light theme preview
+  - key: dark_preview_alt
+    zh: DSH 潮汐液态玻璃皮肤 - 深色主题效果展示
+    en: DSH Tide liquid-glass skin — dark theme preview
