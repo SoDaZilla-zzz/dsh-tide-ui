@@ -17,8 +17,8 @@ pairs:
     zh: 通过 dsh plugin --profile web add . 安装到默认 web 配置
     en: Install into the default web profile with `dsh plugin --profile web add .`
   - key: uninstall
-    zh: 通过 dsh plugin --profile web remove @linxin666/dsh-client-ui-skin-tide 卸载
-    en: Uninstall with `dsh plugin --profile web remove @linxin666/dsh-client-ui-skin-tide`
+    zh: 通过 dsh plugin --profile web remove dsh-tide-ui 卸载
+    en: Uninstall with `dsh plugin --profile web remove dsh-tide-ui`
   - key: light_preview_alt
     zh: DSH 潮汐液态玻璃皮肤 - 浅色主题效果展示
     en: DSH Tide liquid-glass skin — light theme preview
