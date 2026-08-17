@@ -1,0 +1,34 @@
+{
+  "id": "tide",
+  "name": "潮汐",
+  "nameEn": "Tide",
+  "author": "DeepSeek Harness assistant",
+  "tagline": "极光潮汐背景 · 浮动工作窗口 · 鲸鱼娘挂件 · 全可调液态玻璃",
+  "description": "DSH 潮汐主题：极光星云与海浪潮汐交织的动态背景，界面全面液态玻璃化；左侧工作区变成可拖动、可折叠的悬浮窗口，右下角陪伴 Q 版鲸鱼娘挂件（点击打开玻璃调节面板），浅色/深色各自独立配色，液态玻璃参数全局 + 各区域独立可调。卸载完整还原官方界面。",
+  "tags": [
+    "tide",
+    "aurora",
+    "glass",
+    "animated",
+    "translucent",
+    "floating-window",
+    "whale-girl",
+    "liquid-glass",
+    "neon",
+    "i18n"
+  ],
+  "accent": "#4d6bfe",
+  "bodyAttr": "data-dsh-tide",
+  "package": "@linxin666/dsh-client-ui-skin-tide",
+  "wiring": {
+    "id": "ui-skin-tide",
+    "bundleWired": false
+  },
+  "preview": {
+    "light": "preview/light.png",
+    "dark": "preview/dark.png"
+  },
+  "order": 99,
+  "taglineEn": "Aurora-tide backdrop · floating workspace · whale-girl companion · fully tunable liquid glass",
+  "descriptionEn": "DSH Tide skin: aurora nebula fused with rolling sea-tide animation; full liquid-glass UI; left workspace becomes a draggable, collapsible floating window; a Q-version DeepSeek whale-girl companion sits in the corner — click her to open the glass tuning panel. Light & dark each have their own palette. Glass parameters are tunable globally and per region. Unloading fully restores the official UI."
+}
