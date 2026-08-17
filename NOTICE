@@ -1,0 +1,19 @@
+# NOTICE
+
+**DSH Tide Liquid-Glass Skin** · MIT License — see [LICENSE](./LICENSE).
+
+## Third-party artwork
+
+The bundled whale-girl illustration (`preview/` screenshots and the inline
+`WHALE_IMAGE` data URI inside `lib/client.js`) is a derivative of
+`MAID_ATELIER_CHIBI`, an asset from the open-source
+`dsh-deep-whale / maid-atelier` art set.
+
+Redistribution of that illustration follows the original license terms of the
+`dsh-deep-whale / maid-atelier` art set. If you distribute this skin, please
+retain this notice.
+
+## Built on
+
+- [DSH (DeepSeek Harness)](https://github.com/DeepSeekLab/dsh) plugin / cordis framework
+- Classic CSS `backdrop-filter: blur + brightness + saturate` liquid-glass technique
