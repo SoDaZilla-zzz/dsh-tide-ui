@@ -19,7 +19,7 @@
   ],
   "accent": "#4d6bfe",
   "bodyAttr": "data-dsh-tide",
-  "package": "@linxin666/dsh-client-ui-skin-tide",
+  "package": "dsh-tide-ui",
   "wiring": {
     "id": "ui-skin-tide",
     "bundleWired": false
