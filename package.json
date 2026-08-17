@@ -1,0 +1,52 @@
+{
+  "name": "@linxin666/dsh-client-ui-skin-tide",
+  "description": "Hot-pluggable tide liquid-glass skin for the dsh web GUI: dynamic aurora/tide backdrop, floating workspace window, deep-tinted liquid-glass panels, deep-sea caustics, animated SVG waves, a draggable DeepSeek whale-girl companion, and full light/dark support with per-region glass tuning.",
+  "version": "0.1.0",
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./client": "./lib/client.js",
+    "./package.json": "./package.json"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [],
+      "platform": "web"
+    }
+  },
+  "files": [
+    "lib",
+    "cordis.patch.yml",
+    "skin.json",
+    "README.md",
+    "README.zh.md",
+    "README.i18n.yaml"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "dsh",
+    "skin",
+    "theme",
+    "tide",
+    "liquid-glass",
+    "aurora",
+    "animated",
+    "floating-window",
+    "whale-girl",
+    "translucent",
+    "i18n"
+  ],
+  "author": {
+    "name": "DeepSeek Harness assistant"
+  },
+  "homepage": "https://github.com/SoDaZilla-zzz/dsh-tide-ui#readme",
+  "bugs": "https://github.com/SoDaZilla-zzz/dsh-tide-ui/issues",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SoDaZilla-zzz/dsh-tide-ui.git"
+  }
+}
