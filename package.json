@@ -1,5 +1,5 @@
 {
-  "name": "@linxin666/dsh-client-ui-skin-tide",
+  "name": "dsh-tide-ui",
   "description": "Hot-pluggable tide liquid-glass skin for the dsh web GUI: dynamic aurora/tide backdrop, floating workspace window, deep-tinted liquid-glass panels, deep-sea caustics, animated SVG waves, a draggable DeepSeek whale-girl companion, and full light/dark support with per-region glass tuning.",
   "version": "0.1.0",
   "type": "module",
@@ -24,7 +24,10 @@
     "skin.json",
     "README.md",
     "README.zh.md",
-    "README.i18n.yaml"
+    "README.i18n.yaml",
+    "preview",
+    "LICENSE",
+    "NOTICE"
   ],
   "license": "MIT",
   "keywords": [
@@ -40,13 +43,14 @@
     "translucent",
     "i18n"
   ],
-  "author": {
-    "name": "DeepSeek Harness assistant"
-  },
+  "author": "sodazilla",
   "homepage": "https://github.com/SoDaZilla-zzz/dsh-tide-ui#readme",
   "bugs": "https://github.com/SoDaZilla-zzz/dsh-tide-ui/issues",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/SoDaZilla-zzz/dsh-tide-ui.git"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
