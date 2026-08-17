@@ -54,13 +54,13 @@ switch-tide-skin.cmd
 ### 从 npm 安装（已发布时）· From npm (if published)
 
 ```bash
-dsh plugin --profile web add @linxin666/dsh-client-ui-skin-tide
+dsh plugin --profile web add dsh-tide-ui
 ```
 
 ### 手动安装 · Manual install
 
-1. 把 `dsh-tide-ui/` 目录复制到 `~/.dsh/profiles/web/node_modules/@linxin666/dsh-client-ui-skin-tide/`
-2. 运行 `dsh plugin --profile web add @linxin666/dsh-client-ui-skin-tide`
+1. 把 `dsh-tide-ui/` 目录复制到 `~/.dsh/profiles/web/node_modules/dsh-tide-ui/`
+2. 运行 `dsh plugin --profile web add dsh-tide-ui`
 3. 打开 DSH Web → 主页管理 → 选 **潮汐 / Tide**
 
 ---
@@ -153,7 +153,7 @@ dsh-tide-ui/
 ```bash
 # 在 dsh 主页管理 UI 选别的皮肤
 # 或者：
-dsh plugin --profile web remove @linxin666/dsh-client-ui-skin-tide
+dsh plugin --profile web remove dsh-tide-ui
 ```
 
 卸载后所有 body 属性、class、DOM 节点都通过 runtime 的 `effect` 清理钩子移除，官方 UI 立即恢复。
