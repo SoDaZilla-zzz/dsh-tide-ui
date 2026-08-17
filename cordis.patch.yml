@@ -4,4 +4,4 @@
 # skins is managed by the home-layer managed section (see switch-skin script).
 - insert:
     - id: ui-skin-tide
-      name: '@linxin666/dsh-client-ui-skin-tide'
+      name: 'dsh-tide-ui'
