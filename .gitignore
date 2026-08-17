@@ -1,0 +1,28 @@
+# Node / build artifacts
+node_modules/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.DS_Store
+Thumbs.db
+
+# Editor / OS
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Local overrides (DSH home-specific)
+settings.local.yaml
+*.local
+
+# Generated lockfiles if user adds npm later
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Cache
+.cache/
+.tmp/
+*.tmp
